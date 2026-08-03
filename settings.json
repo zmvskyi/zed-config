@@ -1,0 +1,75 @@
+{// Zed settings
+//
+// For information on how to configure Zed, see the Zed//zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
+  "tab_bar": {
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+    "show_pinned_tabs_in_separate_row": true
+  },
+  "tabs": {
+    "file_icons": true
+  },
+  "scroll_beyond_last_line": "off",
+  "base_keymap": "JetBrains",
+  "git": {
+    "blame": {
+      "show_avatar": false
+    },
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "debugger": {
+    "button": false,
+    "dock": "left"
+  },
+  "project_panel": {
+    "hide_root": true,
+    "auto_fold_dirs": false,
+    "file_icons": true,
+    "entry_spacing": "standard",
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "title_bar": {
+    "show_user_picture": false,
+    "show_user_menu": false,
+  },
+  "toolbar": {
+    "selections_menu": false,
+    "agent_review": false,
+    "quick_actions": false,
+    "breadcrumbs": false
+  },
+  "disable_ai": true,
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "git_panel": {
+    "show_count_badge": true,
+    "file_icons": true,
+    "tree_view": true,
+    "dock": "left"
+  },
+  "cli_default_open_behavior": "new_window",
+  "restore_on_startup": "launchpad",
+  "terminal": {
+    "dock": "bottom",
+    "show_count_badge": true
+  }
+}

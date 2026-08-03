@@ -1,0 +1,7 @@
+# Ignore everything at the repo root...
+/*
+
+# ...except these
+!/.gitignore
+!/keymap.json
+!/settings.json
