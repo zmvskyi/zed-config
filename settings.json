@@ -5,7 +5,7 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
-  "ui_font_size": 16.0,
+  "inline_code_actions": false,
   "buffer_font_size": 14.0,
   "tab_bar": {
     "show_tab_bar_buttons": false,
@@ -32,7 +32,6 @@
   "project_panel": {
     "hide_root": true,
     "auto_fold_dirs": false,
-    "file_icons": true,
     "entry_spacing": "standard",
     "dock": "left"
   },
@@ -69,7 +68,6 @@
   "cli_default_open_behavior": "new_window",
   "restore_on_startup": "launchpad",
   "terminal": {
-    "dock": "bottom",
     "show_count_badge": true
   }
 }
