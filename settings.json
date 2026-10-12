@@ -5,6 +5,7 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
+  "diff_view_style": "split",
   "markdown_preview": {
     "font_size": 16.0,
     "max_width": 1000.0,
@@ -65,6 +66,9 @@
     "metrics": false
   },
   "git_panel": {
+    "collapse_untracked_diff": true,
+    "group_by": "status",
+    "status_style": "icon",
     "show_count_badge": true,
     "file_icons": true,
     "tree_view": true,
