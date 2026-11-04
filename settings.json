@@ -7,6 +7,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
   "diff_view_style": "split",
   "markdown_preview": {
+    "open_markdown_files_in_preview": true,
     "font_size": 16.0,
     "max_width": 1000.0,
     "limit_content_width": true
